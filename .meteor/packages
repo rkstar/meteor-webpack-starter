@@ -29,3 +29,4 @@ check
 react-meteor-data
 kadira:flow-router
 fortawesome:fontawesome
+webpack:webpack
