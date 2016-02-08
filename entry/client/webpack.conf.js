@@ -4,7 +4,7 @@ var webpack = require('webpack'),
     plugins: ['transform-decorators-legacy']
   }
 
-if( proces.env.NOD_ENV !== 'production' && !process.env.IS_MIRROR ){
+if( process.env.NOD_ENV !== 'production' && !process.env.IS_MIRROR ){
   babelSettings.plugins.push(['react-transform', {
     transforms: [{
       transform: 'react-transform-hmr',
